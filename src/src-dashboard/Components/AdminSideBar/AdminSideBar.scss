@@ -1,0 +1,17 @@
+.sidebarListStyle {
+  ul li {
+    &:active {
+      background-color: #ffffff;
+      color: #212529;
+    }
+
+    &.bg-active {
+      background-color: #ffffff;
+    }
+
+    &.text-active {
+      color: #212529;
+    }
+    
+  }
+}

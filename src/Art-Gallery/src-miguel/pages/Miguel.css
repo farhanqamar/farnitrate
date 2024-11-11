@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    body {
+      background-color: black;
+    }
+    p {
+      font-family: 'Crimson Text', serif;
+      font-size: 18px;
+      display: block;
+     
+      unicode-bidi: isolate;
+    }
+   
+    strong {
+      font-family: 'Crimson Text', serif;
+      color: white;
+      font-size: 18px;
+    }
+    h1 {
+      font-family: 'ITC Avant Garde Gothic', sans-serif;
+      font-size: 40px;
+      color: #F6C934;
+      margin-top: 33px;
+      margin-bottom: 4px;
+    }
+    .h2-custom{
+      font-family: 'Crimson Text', serif;
+      font-size:32px;
+  
+    }
+    .p2{
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 31px;
+      font-weight: 800;
+      color: #F6C934;
+      font-family: 'ITC Avant Garde Gothic', sans-serif;
+    
+  
+    }
+    h4{
+      font-size: 20px;
+      color: #F6C934;
+      font-family: 'Crimson Text', serif;
+  
+    }
+    .font-basic{
+      font-family: 'Crimson Text', serif;
+      font-size: 20px;
+    } 
+    .btn {
+      color: #F6C934;
+      font-size: 22px;
+      font-family: 'Crimson Text', 'serif';
+    }
+    .list, li{
+      font-size: 20px;
+      font-family: 'Crimson Text', 'serif';
+    }
+    input::placeholder {
+      font-family: 'Crimson Text', serif;
+    }
+    .custom-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .custom-underline {
+      text-decoration: underline;
+      text-underline-offset: 18px;
+    }
+    .border-thin {
+      border-width: 0.25px;
+      border-color: rgba(116, 112, 112, 0.5);
+      border-style: solid;
+    }
+    .border-large {
+      border-left: 0.25px solid rgba(116, 112, 112, 0.5);
+      border-top: 0.25px solid rgba(116, 112, 112, 0.5);
+    }
+    .border-medium {
+      border-width: 2px;
+    }
+    .border-thick {
+      border-width: 4px;
+    }
+    .border-light {
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+    .border-dark {
+      border-color: rgba(0, 0, 0, 0.8);
+    }
+    .custom-img-width {
+      width: 400px;
+      height: 500px;
+    }
+    .swiper-button-prev-custom,
+    .swiper-button-next-custom {
+      border: 1px solid #F6C934;
+      color: #F6C934;
+      width: 38px;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .swiper-button-prev-custom::after,
+    .swiper-button-next-custom::after {
+      font-size: 1rem; 
+      color: #F6C934; 
+    }
+    .swiper-button-prev-custom:hover,
+    .swiper-button-next-custom:hover {
+      opacity: 0.8; 
+    }
+    .swiper-button-prev-custom {
+      left: 10px; 
+    }
+    .swiper-button-next-custom {
+      right: 10px; 
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu li {
+      color: #F6C934;
+      font-size: 21px;
+      font-family: 'Crimson Text', serif;
+      display: flex;
+      list-style-type: disc;
+      margin-block-start: 0.25em;
+      margin-block-end: 0.25em;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      padding-inline-start: 40px;
+      unicode-bidi: isolate;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #F6C934;
+    }
+    .menu li a:hover {
+      color: #FACC15;
+    }
+    .bg-color {
+      background-color: #599ABB;
+    }
+    .nav {
+      border-top: 0.5px solid #E6E6E6;
+      border-bottom: 0.5px solid #E5E4DF;
+      font-family: 'Crimson Text', serif;
+
+    }
+    .image {
+      border-top: 0px solid #E6E6E6;
+    }
+  /* } */
+  h2 {
+    color: #F6C934;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+    font-weight: 700;
+    transform: scaleY(1.1);
+    display: block;
+    font-size: 31px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  a{
+    color: #F6C934;
+    font-size: 22px;
+    font-family: 'Crimson Text', serif;
+  }
+  .swiper-container {
+    position: relative;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    border: 1px solid #F6C934 !important;
+    color: #F6C934 !important;
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0; 
+    opacity: 1;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1rem !important;
+  }
+  .custom-button {
+    display: inline-block;
+    border: 0;
+    padding: 0 0 0.5rem; 
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: calc(1 + 0.6 / 1); 
+    text-decoration: none;
+    color: #F6C934;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    border-radius: 0;
+    position: relative;
+    text-underline-offset: 18px; 
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-decoration-color: #F6C934; 
+    font-family: 'Crimson Text', serif;
+  }
+  .custom-button:hover {
+    
+    color: #FACC15; 
+  }
+  .label{
+    color: #F6C934;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+  
+  }
+  .custom-button-2{
+    color: black;
+    font-size: 13px;
+    background:#F6C934;
+    font-size: 0%;
+  }
+  .text-decoration-white {
+    text-decoration-color: #fff;
+  }
+ 
+  b{
+    color: #F6C934;
+    font-weight: 600
+  }
+  
+  @media screen and (max-width:676px) {
+    p{
+      font-size: 16px !important;
+    }
+    li{
+      font-size: 14px !important;
+  
+    }
+    a{
+      font-size: 14px !important;
+  
+    }
+    h1{
+      font-size: 20px !important;
+    }
+    h2{
+      font-size: 20px !important;
+    }
+    h4{
+      font-size: 18px !important;
+    }
+  }
+
+  

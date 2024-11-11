@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, p, button, span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.btn-custom {
+    @apply border-b-slate-900 rounded-lg shadow-sm px-3 py-1 flex gap-2 bg-white hover:bg-[#f7f7f7] text-sm;
+  }
+.heading{
+color:black
+}
+ 
