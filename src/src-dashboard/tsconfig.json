@@ -7,11 +7,16 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": false,
-    "noEmit": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node"
+    "allowImportingTsExtensions" : true,
+    "noEmit" : true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,                     
+    "isolatedModules": true,                        
+    "skipDefaultLibCheck": true,                             
+    "downlevelIteration": true  
   },
   "include": ["./*"],
   "exclude": ["node_modules"]
